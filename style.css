@@ -17,6 +17,11 @@
     font-size: 24px;
 }
 
+.logo{
+    font-weight: 900;
+    font-size: 34px;
+}
+
 .nav-links{
     display: flex;
     list-style: none;
@@ -29,6 +34,15 @@
     color:#e5e7eb;
     text-decoration:none;
 }
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#F9FaF8
+  }
 
 /* MAIN */
 
@@ -111,4 +125,74 @@ button{
     font-size: 36px;
     color:#1F2937;
     font-weight: 900;
+}
+
+/* Page 3 */
+
+.pg3{
+    background-color: #e5e7eb;
+    font-size: 28px;
+    font-style: italic;
+    color:#1F2937;
+    height:320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg3-container{
+    width: 800px;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.author{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* page 4 */
+
+.pg4{
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg4-container{
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    width: 750px;
+    height: 120px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FaF8;
+}
+
+.pg4-bold-para{
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.signup{
+    border: 2px solid #F9FaF8;
+    border-radius: 7px;
+}
+
+/* FOOTER */
+
+footer{
+    height: 90px;
+    font-size: 14px;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
